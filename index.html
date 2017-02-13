@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div class="game">
+	<div class="stats">
+			<div class="playerstats">
+				<h3> Your Stats: </h3>
+				<p id="pHP"> </p>
+				<p id="pSpeed"> </p>
+				<p id="pAgility"></p>
+				<p id="pAttack"> </p>
+			</div>
+			<div class="computerstats">
+				<h3 class="cstatlabel"> The Computer's Stats: </h3>
+				<p id="cHP"> </p>
+				<p id="cSpeed"> </p>
+				<p id="cAgility"></p>
+				<p id="cAttack"> </p>
+			</div>
+	</div>
+	<div class="functional">
+		<div class="info">
+			<div class="infoo">
+			<h3 id="playerPokemon"></h3>
+			<h3 id="computerPokemon"></h3>
+			<h3 id="currentTurn"></h3>
+			</div>
+		</div>
+		<div class="screen" id="scrollable" >
+			<p id="bottom"></p>
+		</div>
+		<div class="buttons">
+			<!-- <button id="startbutton" onclick="startGame()">Start Game!</button> -->
+			<button id="mainbutton" class="invisible" onclick="startTurn()">Start Game!</button>
+			<button id="attackbutton" class="invisible" onclick="attack()">Attack!</button>
+		</div>
+	</div>
+	<div class="inventory">
+
+	</div>
+</div>
+	<script src="pokemon.js"></script>
+</body>
+</html>

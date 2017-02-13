@@ -1,0 +1,62 @@
+div.game {
+	width: 100%;
+	height: 100%;
+	background-color: gray;
+}
+div.functional {
+	position: absolute;
+	align-content: center;
+	height: 100%;
+	width: 40%;
+	left: 300px;
+	background-color: orange;
+}
+div.buttons {
+	width: 100%;
+	display: inherit;
+	height: 10%;
+	background-color: blue;
+}
+div.info {
+	width: 100%;
+	display: inherit;
+	height: 10%;
+	background-color: green;
+	font-size: 10px;
+}
+div.infoo {
+	margin-left: 50px;
+}
+div.screen {
+	width: 100%;
+	display: inherit;
+	height:80%;
+	background-color:grey;
+}
+div.stats {
+	position: absolute;
+	align-content: center;
+	height: 100%;
+	width: 30%;
+	left: 0;
+	background-color: teal;
+}
+div.playerstats {
+	position: inherit;
+	margin-left: 50px;
+}
+div.computerstats {
+	position: inherit;
+	margin-left: 50px;
+	width: 200px;
+	margin-top: 170px;
+}
+.invisible {
+	display: none;
+}
+#scrollable {
+	overflow-y: scroll;
+}
+h3#text {
+	margin-left: 20px;
+}
